@@ -8,10 +8,10 @@ import java.util.Queue;
 
 public class Calculator implements ActionListener{
 	
-	JFrame frame; 			// the "body" of the calculator
+	JFrame frame; 		// the "body" of the calculator
 	JTextField textfield; 	// where we enter our numbers
 	JButton[] numberButtons = new JButton[10]; 	//creates an array of buttons to select the numbers from 0-9
-	JButton[] functionButtons = new JButton[9]; //creates an array of buttons to select the operations and functions of the calculator respectively
+	JButton[] functionButtons = new JButton[9]; 	//creates an array of buttons to select the operations and functions of the calculator respectively
 	JButton addButton, subButton, mulButton, divButton;
 	JButton decButton, equButton, delButton, clrButton, negButton;
 	JPanel panel;
